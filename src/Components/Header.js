@@ -1,5 +1,7 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
+import ParticleBackground from "./ParticleBackground";
+
 
 const Header = ({ data }) => {
   if (data) {
@@ -17,9 +19,13 @@ const Header = ({ data }) => {
       );
     });
   }
+ 
 
   return (
+    
     <header id="home">
+      
+     
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
           Show navigation
@@ -80,6 +86,7 @@ const Header = ({ data }) => {
           <i className="icon-down-circle"></i>
         </a>
       </p>
+     
     </header>
   );
 };

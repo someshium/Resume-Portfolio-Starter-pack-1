@@ -16,6 +16,7 @@
    h. Contact Section
    i. Footer
 
+
 ===================================================================== */
 
 /* ------------------------------------------------------------------ */
@@ -236,26 +237,28 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #191919;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: white }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   color: white;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid white;
    padding-bottom: 6px;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   color: white;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -268,17 +271,22 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: white;
    margin-bottom: 18px;
    margin-top: 9px;
 }
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
+   color: white;
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+#resume p{ 
+   color: white;
 }
 
 /*----------------------------------------------*/
@@ -290,6 +298,7 @@ ul#nav li.current a { color: #F06000; }
 	float: left;
 	padding: 0;
 	text-align: left;
+   color: white
 }
 .bars .skills {
   	margin-top: 36px;
@@ -298,13 +307,13 @@ ul#nav li.current a { color: #F06000; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
+  	background:  #313131;
   	height: 42px;
   	border-radius: 3px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #ccc;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -318,7 +327,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: white;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -417,7 +426,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #191919;
+   background: rgb(15,15,15)
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -801,7 +810,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: white }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -850,7 +859,7 @@ call-to-action .button {
 #contact select {
    padding: 18px 20px;
 	color: #eee;
-	background: #373233;
+	background: #fafafa
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -862,7 +871,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: white;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -881,7 +890,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: white
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -1009,3 +1018,9 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+/* ------------------------------------------------------------------ */
+/* j. Certificate 
+/* ------------------------------------------------------------------ */
+
